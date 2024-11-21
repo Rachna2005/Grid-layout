@@ -1,0 +1,47 @@
+/* Styling only */
+body {
+  margin: 0;
+}
+
+.wrapper {
+  background-color: #333333;
+  color: #444;
+  padding: 20px;
+  height: 90vh;
+  display: grid;
+  gap: 20px;
+  grid-template-areas: 'a a a a a a' 'b b c c d d' 'b b e e e e' 'f f f f f f';
+}
+
+.item {
+  background-color: #3092d7;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 3em;
+  /* display: grid; */
+}
+
+/* Layouting only  (your work)*/
+.a{
+  grid-area: a;
+}
+.b{
+  grid-area: b;
+}
+.f{
+  grid-area: f;
+}
+
+.e{
+  grid-area: e;
+}
+.c{
+  grid-area: c;
+}
+.d{
+  grid-area: d;
+}
+  
+ 
+ 
